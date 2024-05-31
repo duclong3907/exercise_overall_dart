@@ -50,6 +50,5 @@ double calculateAverage(List<double> numbers) {
   return sum / numbers.length;
 }
 
-double calculateSqrtNumber(double number) {
-  return sqrt(number);
-}
+double calculateSqrtNumber(double number) => sqrt(number);
+
